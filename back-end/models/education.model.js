@@ -3,10 +3,9 @@ var Schema = mongoose.Schema;
 
 var educationSchema = new Schema({
     qualification: String, 
-    startDate: String, 
-    endDate: String, 
-    University: String
-  
+    startDate: {type: Date, default: Date.now}, 
+    endDate: {type: Date, default: Date.now},
+    university: String, 
 });
 
 

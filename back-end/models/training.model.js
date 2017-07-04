@@ -6,7 +6,6 @@ var trainingSchema = new Schema({
     name: String, 
     description: String, 
     type: String, 
-  
 })
 
 
